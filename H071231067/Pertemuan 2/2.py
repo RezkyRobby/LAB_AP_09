@@ -18,6 +18,7 @@ match x:
           print('homem')
          elif z=='herbivoro':
           print('vaca')
+        else:print('Invalid input')
     
     case 'invertebrado':
         if y=='inseto':
@@ -31,5 +32,6 @@ match x:
           print('sanguessuga')
          elif z=='onivoro':
           print('minhoca')
+        else:print('Invalid Input')
     case _:
           print('Invalid input')
