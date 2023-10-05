@@ -1,4 +1,4 @@
-def maks_angka(*angka):
+def maksimun_angka (*angka):
     if not angka:
         return None
     
@@ -7,9 +7,9 @@ def maks_angka(*angka):
     for i in angka:
         if i > angka_terbesar:
             angka_terbesar = i
-    
+
     return angka_terbesar
 
-inputan = input("Angka: ")
-angka = (int(a) for a in inputan.split())
-print(f"{maks_angka(*angka)}")
+inputan =input()
+angka = [int(a) for a in inputan.split()]
+print(f">>{maksimun_angka(*angka)}")
